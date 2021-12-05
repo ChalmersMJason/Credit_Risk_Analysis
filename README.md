@@ -30,17 +30,17 @@ The purpose of this analysis is to provide insight on credit risk. A credit card
 
 
 * Undersampling
-  * Balanced Accuracy Score -
-  * Precision - 
-  * Recall - 
+  * Balanced Accuracy Score - 51.0%
+  * Precision - 99%
+  * Recall - 44%
 
 ![image](https://user-images.githubusercontent.com/85259984/144764399-9c39e03f-c299-4da2-9e66-4a13dce8ead1.png)
 
 
 * Combination (SMOTEEN)
-  * Balanced Accuracy Score - 51%
+  * Balanced Accuracy Score - 65%
   * Precision - 99%
-  * Recall - 44%
+  * Recall - 58%
 
 ![image](https://user-images.githubusercontent.com/85259984/144764409-082b1e01-4b89-4075-b826-1ab3889a2953.png)
 
@@ -59,5 +59,6 @@ The purpose of this analysis is to provide insight on credit risk. A credit card
 
 ![image](https://user-images.githubusercontent.com/85259984/144764370-61d4f18d-056f-495e-afcc-9b0c4cae0c97.png)
 
-
+## Summary
+In the first four models above, sampling methods were used that yielded accuracy results ranging from 51% to 65% balanced accuracy. The final two models used ensemble classifiers which yielded accuracy results between 79% and 90%. Due to the higher accuracy of the ensemble models, the recommendation of this analysis is for the credit company to use the ensemble model methods. The data suggests that this methodology will give the company more reliable results moving forward. 
 
